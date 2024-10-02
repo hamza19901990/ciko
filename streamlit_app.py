@@ -90,7 +90,7 @@ st.write(df_standardized)
 st.write('---')
 
 # Load your pre-trained model (make sure to have your model saved as a .pkl file)
-load_clf = pickle.load(open('svr.pkl', 'rb'))
+load_clf = pickle.load(open('svr (2).pkl', 'rb'))
 
 # Predict the shear capacity based on input
 st.header('Predicted Shear Capacity (kN)')
