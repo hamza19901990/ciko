@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.svm import SVR
 import pickle
 from sklearn.preprocessing import StandardScaler
 
