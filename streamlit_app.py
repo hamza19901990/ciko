@@ -18,7 +18,7 @@ st.write('---')
 image = Image.open(r'coupled_beam.jpg')
 st.image(image, use_column_width=True)
 # Load your dataset
-data = pd.read_csv(r"coupled_beams.csv")  # Your dataset should contain the variables you listed
+data = pd.read_csv(r"angle beam.csv")  # Your dataset should contain the variables you listed
 req_col_names = ["Ln", "bw", "h", "fc", "Ast", "fyt", "Ah", "fyh", "Av", "fyv", "Avd", "fyd", "Angle", "Vn"]
 curr_col_names = list(data.columns)
 
