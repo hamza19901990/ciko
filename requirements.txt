@@ -1,5 +1,5 @@
-Pillow==10.2.0 	
+Pillow
 streamlit
-pandas==2.0.1
+pandas
 scikit_learn
-numpy==1.24.3
+numpy
