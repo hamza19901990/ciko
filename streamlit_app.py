@@ -66,7 +66,7 @@ def get_input_features():
         'Av': Av,
         'fyv': fyv,
         'Avd': Avd,
-        'fyd': Fyd,
+        'fyd': fyd,
         'Angle': Angle
     }
     
